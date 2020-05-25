@@ -1,0 +1,10 @@
+C:\Git.Projects\Discord.Bot\Discord.Bot\bin\Debug\netcoreapp3.1\Discord.Bot.exe
+C:\Git.Projects\Discord.Bot\Discord.Bot\obj\Debug\netcoreapp3.1\Discord.Bot.csprojAssemblyReference.cache
+C:\Git.Projects\Discord.Bot\Discord.Bot\obj\Debug\netcoreapp3.1\Discord.Bot.AssemblyInfoInputs.cache
+C:\Git.Projects\Discord.Bot\Discord.Bot\obj\Debug\netcoreapp3.1\Discord.Bot.AssemblyInfo.cs
+C:\Git.Projects\Discord.Bot\Discord.Bot\bin\Debug\netcoreapp3.1\DSharpPlus.dll
+C:\Git.Projects\Discord.Bot\Discord.Bot\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Git.Projects\Discord.Bot\Discord.Bot\obj\Debug\netcoreapp3.1\Discord.Bot.csproj.CopyComplete
+C:\Git.Projects\Discord.Bot\Discord.Bot\bin\Debug\netcoreapp3.1\DSharpPlus.CommandsNext.dll
+C:\Git.Projects\Discord.Bot\Discord.Bot\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Git.Projects\Discord.Bot\Discord.Bot\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
