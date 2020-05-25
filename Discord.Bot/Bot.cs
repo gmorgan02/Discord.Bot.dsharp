@@ -7,6 +7,7 @@ using Discord.Bot.Commands;
 using DSharpPlus;
 using DSharpPlus.CommandsNext;
 using DSharpPlus.EventArgs;
+using DSharpPlus.VoiceNext;
 using Newtonsoft.Json;
 
 namespace Discord.Bot
@@ -14,7 +15,7 @@ namespace Discord.Bot
     public class Bot
     {
         public DiscordClient Client { get; private set; }
-        public CommandsNextExtension Commands { get; private set; }
+        public CommandsNextModule Commands { get; private set; }
 
         public async Task RunAsync()
         {
@@ -37,14 +38,15 @@ namespace Discord.Bot
             };
 
             Client = new DiscordClient(config);
+            var voice = Client.UseVoiceNext();
 
             Client.Ready += OnClientReady;
 
             var commandsConfig = new CommandsNextConfiguration
             {
-                StringPrefixes = new string[] {configJson.Prefix},
+                StringPrefix =  configJson.Prefix,
                 EnableMentionPrefix = true,
-                EnableDms = true,
+                EnableDms = false,
             };
 
             Commands = Client.UseCommandsNext(commandsConfig);
