@@ -5,4 +5,29 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Include="bin\Debug\netcoreapp3.1\Discord.Bot.deps.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\Discord.Bot.runtimeconfig.dev.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\Discord.Bot.runtimeconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\netcoreapp3.1\config.json" />
+    <None Include="bin\Debug\netcoreapp3.1\Discord.Bot.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Discord.Bot.exe" />
+    <None Include="bin\Debug\netcoreapp3.1\Discord.Bot.pdb" />
+    <None Include="bin\Debug\netcoreapp3.1\DSharpPlus.CommandsNext.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\DSharpPlus.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\DSharpPlus.Interactivity.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DSharpPlus" Version="4.0.0-nightly-00697" />
+    <PackageReference Include="DSharpPlus.CommandsNext" Version="4.0.0-nightly-00697" />
+    <PackageReference Include="DSharpPlus.Interactivity" Version="4.0.0-nightly-00697" />
+  </ItemGroup>
+
 </Project>

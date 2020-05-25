@@ -8,3 +8,13 @@ C:\Git.Projects\Discord.Bot\Discord.Bot\obj\Debug\netcoreapp3.1\Discord.Bot.cspr
 C:\Git.Projects\Discord.Bot\Discord.Bot\bin\Debug\netcoreapp3.1\DSharpPlus.CommandsNext.dll
 C:\Git.Projects\Discord.Bot\Discord.Bot\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
 C:\Git.Projects\Discord.Bot\Discord.Bot\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Git.Projects\Discord.Bot\Discord.Bot\obj\Debug\netcoreapp3.1\Discord.Bot.csproj.CoreCompileInputs.cache
+C:\Git.Projects\Discord.Bot\Discord.Bot\bin\Debug\netcoreapp3.1\Discord.Bot.deps.json
+C:\Git.Projects\Discord.Bot\Discord.Bot\bin\Debug\netcoreapp3.1\Discord.Bot.runtimeconfig.json
+C:\Git.Projects\Discord.Bot\Discord.Bot\bin\Debug\netcoreapp3.1\Discord.Bot.runtimeconfig.dev.json
+C:\Git.Projects\Discord.Bot\Discord.Bot\bin\Debug\netcoreapp3.1\Discord.Bot.dll
+C:\Git.Projects\Discord.Bot\Discord.Bot\bin\Debug\netcoreapp3.1\Discord.Bot.pdb
+C:\Git.Projects\Discord.Bot\Discord.Bot\bin\Debug\netcoreapp3.1\DSharpPlus.Interactivity.dll
+C:\Git.Projects\Discord.Bot\Discord.Bot\obj\Debug\netcoreapp3.1\Discord.Bot.dll
+C:\Git.Projects\Discord.Bot\Discord.Bot\obj\Debug\netcoreapp3.1\Discord.Bot.pdb
+C:\Git.Projects\Discord.Bot\Discord.Bot\obj\Debug\netcoreapp3.1\Discord.Bot.genruntimeconfig.cache
