@@ -22,4 +22,3 @@ C:\Git.Projects\Discord.Bot\Discord.Bot\bin\Debug\netcoreapp3.1\runtimes\win-x64
 C:\Git.Projects\Discord.Bot\Discord.Bot\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\libsodium.dll
 C:\Git.Projects\Discord.Bot\Discord.Bot\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\libopus.dll
 C:\Git.Projects\Discord.Bot\Discord.Bot\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\libsodium.dll
-C:\Git.Projects\Discord.Bot\Discord.Bot\obj\Debug\netcoreapp3.1\Discord.Bot.csproj.CoreCompileInputs.cache

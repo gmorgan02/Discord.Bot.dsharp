@@ -7,6 +7,7 @@ using Discord.Bot.Commands;
 using DSharpPlus;
 using DSharpPlus.CommandsNext;
 using DSharpPlus.EventArgs;
+using DSharpPlus.Lavalink;
 using DSharpPlus.VoiceNext;
 using DSharpPlus.VoiceNext.Codec;
 using Newtonsoft.Json;
@@ -44,6 +45,9 @@ namespace Discord.Bot
 
             Client.Ready += OnClientReady;
 
+            Client.UseLavalink();
+
+
             var commandsConfig = new CommandsNextConfiguration
             {
                 StringPrefixes =  new string[] { configJson.Prefix },
@@ -54,7 +58,7 @@ namespace Discord.Bot
             Commands = Client.UseCommandsNext(commandsConfig);
             //Initializes the commands from each class
             Commands.RegisterCommands<TestCommands>();
-            Commands.RegisterCommands<MusicCommands>();
+            Commands.RegisterCommands<LocalMusicCommands>();
 
             await Client.ConnectAsync();
 

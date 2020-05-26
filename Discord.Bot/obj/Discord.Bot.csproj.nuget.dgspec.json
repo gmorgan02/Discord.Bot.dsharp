@@ -54,6 +54,10 @@
               "target": "Package",
               "version": "[4.0.0-nightly-00697, )"
             },
+            "DSharpPlus.Lavalink": {
+              "target": "Package",
+              "version": "[4.0.0-nightly-00697, )"
+            },
             "DSharpPlus.VoiceNext": {
               "target": "Package",
               "version": "[4.0.0-nightly-00697, )"

@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "OTv7eaUkPXL+Sj8P2LYYCqsMjHOboCDRuO2c7LkdXjjDFmw+i+JAOtNhHMM1s265gREScovx4k2H8ZihCl5g/w==",
+  "dgSpecHash": "6aeEnkrT01IXIEcUi5wsgqM+bJUI+esbLRVYGiHyxnLgy5EYdeXCuBMJqjeCB374epm1P0vVmTRuNKp/s9hgOQ==",
   "success": true,
   "projectFilePath": "C:\\Git.Projects\\Discord.Bot\\Discord.Bot\\Discord.Bot.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\George\\.nuget\\packages\\dsharpplus\\4.0.0-nightly-00697\\dsharpplus.4.0.0-nightly-00697.nupkg.sha512",
     "C:\\Users\\George\\.nuget\\packages\\dsharpplus.commandsnext\\4.0.0-nightly-00697\\dsharpplus.commandsnext.4.0.0-nightly-00697.nupkg.sha512",
     "C:\\Users\\George\\.nuget\\packages\\dsharpplus.interactivity\\4.0.0-nightly-00697\\dsharpplus.interactivity.4.0.0-nightly-00697.nupkg.sha512",
+    "C:\\Users\\George\\.nuget\\packages\\dsharpplus.lavalink\\4.0.0-nightly-00697\\dsharpplus.lavalink.4.0.0-nightly-00697.nupkg.sha512",
     "C:\\Users\\George\\.nuget\\packages\\dsharpplus.voicenext\\4.0.0-nightly-00697\\dsharpplus.voicenext.4.0.0-nightly-00697.nupkg.sha512",
     "C:\\Users\\George\\.nuget\\packages\\dsharpplus.voicenext.natives\\1.0.0\\dsharpplus.voicenext.natives.1.0.0.nupkg.sha512",
     "C:\\Users\\George\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.1\\microsoft.extensions.dependencyinjection.3.1.1.nupkg.sha512",

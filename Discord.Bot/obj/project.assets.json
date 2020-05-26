@@ -44,6 +44,18 @@
           "lib/netstandard2.0/DSharpPlus.Interactivity.dll": {}
         }
       },
+      "DSharpPlus.Lavalink/4.0.0-nightly-00697": {
+        "type": "package",
+        "dependencies": {
+          "DSharpPlus": "4.0.0-nightly-00697"
+        },
+        "compile": {
+          "lib/netstandard2.0/DSharpPlus.Lavalink.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/DSharpPlus.Lavalink.dll": {}
+        }
+      },
       "DSharpPlus.VoiceNext/4.0.0-nightly-00697": {
         "type": "package",
         "dependencies": {
@@ -1244,6 +1256,20 @@
         "lib/netstandard1.3/DSharpPlus.Interactivity.xml",
         "lib/netstandard2.0/DSharpPlus.Interactivity.dll",
         "lib/netstandard2.0/DSharpPlus.Interactivity.xml"
+      ]
+    },
+    "DSharpPlus.Lavalink/4.0.0-nightly-00697": {
+      "sha512": "zZz5gI1W/TiuTPIVpkOxEWMj/tUjfdoEUv4avDHdW9idLO2JzaXmVm2unEo1HhYVa3/bQCE59ZOVRKgQs7dubQ==",
+      "type": "package",
+      "path": "dsharpplus.lavalink/4.0.0-nightly-00697",
+      "files": [
+        ".nupkg.metadata",
+        "dsharpplus.lavalink.4.0.0-nightly-00697.nupkg.sha512",
+        "dsharpplus.lavalink.nuspec",
+        "lib/netstandard1.3/DSharpPlus.Lavalink.dll",
+        "lib/netstandard1.3/DSharpPlus.Lavalink.xml",
+        "lib/netstandard2.0/DSharpPlus.Lavalink.dll",
+        "lib/netstandard2.0/DSharpPlus.Lavalink.xml"
       ]
     },
     "DSharpPlus.VoiceNext/4.0.0-nightly-00697": {
@@ -4050,6 +4076,7 @@
       "DSharpPlus >= 4.0.0-nightly-00697",
       "DSharpPlus.CommandsNext >= 4.0.0-nightly-00697",
       "DSharpPlus.Interactivity >= 4.0.0-nightly-00697",
+      "DSharpPlus.Lavalink >= 4.0.0-nightly-00697",
       "DSharpPlus.VoiceNext >= 4.0.0-nightly-00697"
     ]
   },
@@ -4104,6 +4131,10 @@
             "version": "[4.0.0-nightly-00697, )"
           },
           "DSharpPlus.Interactivity": {
+            "target": "Package",
+            "version": "[4.0.0-nightly-00697, )"
+          },
+          "DSharpPlus.Lavalink": {
             "target": "Package",
             "version": "[4.0.0-nightly-00697, )"
           },

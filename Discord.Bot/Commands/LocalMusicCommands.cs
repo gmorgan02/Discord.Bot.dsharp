@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
-using System.Text;
 using System.Threading.Tasks;
 using DSharpPlus.CommandsNext;
 using DSharpPlus.CommandsNext.Attributes;
@@ -10,7 +8,7 @@ using DSharpPlus.VoiceNext;
 
 namespace Discord.Bot.Commands
 {
-    public class MusicCommands : BaseCommandModule
+    public class LocalMusicCommands : BaseCommandModule
     {
         [Command("play")]
         public async Task Play(CommandContext ctx, [RemainingText] string file)
