@@ -8,6 +8,7 @@ using DSharpPlus;
 using DSharpPlus.CommandsNext;
 using DSharpPlus.EventArgs;
 using DSharpPlus.VoiceNext;
+using DSharpPlus.VoiceNext.Codec;
 using Newtonsoft.Json;
 
 namespace Discord.Bot
@@ -16,6 +17,7 @@ namespace Discord.Bot
     {
         public DiscordClient Client { get; private set; }
         public CommandsNextModule Commands { get; private set; }
+        public VoiceNextClient Voice { get; set; }
 
         public async Task RunAsync()
         {
@@ -53,6 +55,15 @@ namespace Discord.Bot
             //Initializes the commands from each class
             Commands.RegisterCommands<TestCommands>();
             Commands.RegisterCommands<MusicCommands>();
+
+            // let's set up voice
+            var vcfg = new VoiceNextConfiguration
+            {
+                VoiceApplication = VoiceApplication.Music
+            };
+
+            // and let's enable it
+            Voice = Client.UseVoiceNext(vcfg);
 
             await Client.ConnectAsync();
 

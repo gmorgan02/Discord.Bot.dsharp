@@ -17,6 +17,7 @@ namespace Discord.Bot.Commands
         {
             var vnext = ctx.Client.GetVoiceNextClient();
 
+            // check whether bot is connected
             var vnc = vnext.GetConnection(ctx.Guild);
             if (vnc == null)
                 throw new InvalidOperationException("Not connected in this guild.");
@@ -43,20 +44,20 @@ namespace Discord.Bot.Commands
             {
                 if (br < buff.Length) // not a full sample, mute the rest
                     for (var i = br; i < buff.Length; i++)
-                        buff[i] = 0;               
+                        buff[i] = 0;
 
-
-               await vnc.SendAsync(buff,20);
+                await vnc.SendAsync(buff, 20);
             }
 
             await vnc.SendSpeakingAsync(false); // we're not speaking anymore
         }
 
-        [Command("join")]
+        [Command("join"), Description("Joins the voice channel.")]
         public async Task Join(CommandContext ctx)
         {
             var vnext = ctx.Client.GetVoiceNextClient();
 
+            // check whether bot is already connected
             var vnc = vnext.GetConnection(ctx.Guild);
             if (vnc != null)
                 throw new InvalidOperationException("Already connected in this guild.");
@@ -69,11 +70,12 @@ namespace Discord.Bot.Commands
             await ctx.RespondAsync("👌");
         }
 
-        [Command("leave")]
+        [Command("leave"), Description("Leaves the voice channel.")]
         public async Task Leave(CommandContext ctx)
         {
           var vnext = ctx.Client.GetVoiceNextClient();
 
+          // check whether bot is connected
             var vnc = vnext.GetConnection(ctx.Guild);
             if (vnc == null)
                 throw new InvalidOperationException("Not connected in this guild.");
