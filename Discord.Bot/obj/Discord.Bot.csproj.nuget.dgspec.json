@@ -44,19 +44,19 @@
           "dependencies": {
             "DSharpPlus": {
               "target": "Package",
-              "version": "[3.2.3, )"
+              "version": "[4.0.0-nightly-00697, )"
             },
             "DSharpPlus.CommandsNext": {
               "target": "Package",
-              "version": "[3.2.3, )"
+              "version": "[4.0.0-nightly-00697, )"
             },
             "DSharpPlus.Interactivity": {
               "target": "Package",
-              "version": "[3.2.3, )"
+              "version": "[4.0.0-nightly-00697, )"
             },
             "DSharpPlus.VoiceNext": {
               "target": "Package",
-              "version": "[3.2.3, )"
+              "version": "[4.0.0-nightly-00697, )"
             }
           },
           "imports": [

@@ -7,7 +7,7 @@ using DSharpPlus.CommandsNext.Attributes;
 
 namespace Discord.Bot.Commands
 {
-    public class TestCommands
+    public class TestCommands : BaseCommandModule
     {
         [Command("ping")]
         [Description("Returns pong")]

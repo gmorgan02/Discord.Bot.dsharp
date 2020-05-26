@@ -10,12 +10,12 @@ using DSharpPlus.VoiceNext;
 
 namespace Discord.Bot.Commands
 {
-    public class MusicCommands
+    public class MusicCommands : BaseCommandModule
     {
         [Command("play")]
         public async Task Play(CommandContext ctx, [RemainingText] string file)
         {
-            var vnext = ctx.Client.GetVoiceNextClient();
+            var vnext = ctx.Client.GetVoiceNext();
 
             // check whether bot is connected
             var vnc = vnext.GetConnection(ctx.Guild);
@@ -38,24 +38,17 @@ namespace Discord.Bot.Commands
             var ffmpeg = Process.Start(psi);
             var ffout = ffmpeg.StandardOutput.BaseStream;
 
-            var buff = new byte[3840];
-            var br = 0;
-            while ((br = ffout.Read(buff, 0, buff.Length)) > 0)
-            {
-                if (br < buff.Length) // not a full sample, mute the rest
-                    for (var i = br; i < buff.Length; i++)
-                        buff[i] = 0;
+            var txStream = vnc.GetTransmitStream();
+            await ffout.CopyToAsync(txStream);
+            await txStream.FlushAsync();
 
-                await vnc.SendAsync(buff, 20);
-            }
-
-            await vnc.SendSpeakingAsync(false); // we're not speaking anymore
+            await vnc.WaitForPlaybackFinishAsync(); // wait until playback finishes
         }
 
         [Command("join"), Description("Joins the voice channel.")]
         public async Task Join(CommandContext ctx)
         {
-            var vnext = ctx.Client.GetVoiceNextClient();
+            var vnext = ctx.Client.GetVoiceNext();
 
             // check whether bot is already connected
             var vnc = vnext.GetConnection(ctx.Guild);
@@ -73,7 +66,7 @@ namespace Discord.Bot.Commands
         [Command("leave"), Description("Leaves the voice channel.")]
         public async Task Leave(CommandContext ctx)
         {
-          var vnext = ctx.Client.GetVoiceNextClient();
+          var vnext = ctx.Client.GetVoiceNext();
 
           // check whether bot is connected
             var vnc = vnext.GetConnection(ctx.Guild);

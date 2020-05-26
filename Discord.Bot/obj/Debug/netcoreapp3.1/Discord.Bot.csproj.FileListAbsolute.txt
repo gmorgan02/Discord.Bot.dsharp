@@ -2,9 +2,6 @@ C:\Git.Projects\Discord.Bot\Discord.Bot\bin\Debug\netcoreapp3.1\Discord.Bot.exe
 C:\Git.Projects\Discord.Bot\Discord.Bot\obj\Debug\netcoreapp3.1\Discord.Bot.csprojAssemblyReference.cache
 C:\Git.Projects\Discord.Bot\Discord.Bot\obj\Debug\netcoreapp3.1\Discord.Bot.AssemblyInfoInputs.cache
 C:\Git.Projects\Discord.Bot\Discord.Bot\obj\Debug\netcoreapp3.1\Discord.Bot.AssemblyInfo.cs
-C:\Git.Projects\Discord.Bot\Discord.Bot\bin\Debug\netcoreapp3.1\DSharpPlus.dll
-C:\Git.Projects\Discord.Bot\Discord.Bot\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-C:\Git.Projects\Discord.Bot\Discord.Bot\obj\Debug\netcoreapp3.1\Discord.Bot.csproj.CopyComplete
 C:\Git.Projects\Discord.Bot\Discord.Bot\bin\Debug\netcoreapp3.1\Discord.Bot.deps.json
 C:\Git.Projects\Discord.Bot\Discord.Bot\bin\Debug\netcoreapp3.1\Discord.Bot.runtimeconfig.json
 C:\Git.Projects\Discord.Bot\Discord.Bot\bin\Debug\netcoreapp3.1\Discord.Bot.runtimeconfig.dev.json
@@ -13,7 +10,16 @@ C:\Git.Projects\Discord.Bot\Discord.Bot\bin\Debug\netcoreapp3.1\Discord.Bot.pdb
 C:\Git.Projects\Discord.Bot\Discord.Bot\obj\Debug\netcoreapp3.1\Discord.Bot.dll
 C:\Git.Projects\Discord.Bot\Discord.Bot\obj\Debug\netcoreapp3.1\Discord.Bot.pdb
 C:\Git.Projects\Discord.Bot\Discord.Bot\obj\Debug\netcoreapp3.1\Discord.Bot.genruntimeconfig.cache
+C:\Git.Projects\Discord.Bot\Discord.Bot\bin\Debug\netcoreapp3.1\DSharpPlus.dll
+C:\Git.Projects\Discord.Bot\Discord.Bot\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Git.Projects\Discord.Bot\Discord.Bot\obj\Debug\netcoreapp3.1\Discord.Bot.csproj.CopyComplete
 C:\Git.Projects\Discord.Bot\Discord.Bot\bin\Debug\netcoreapp3.1\DSharpPlus.CommandsNext.dll
-C:\Git.Projects\Discord.Bot\Discord.Bot\bin\Debug\netcoreapp3.1\DSharpPlus.VoiceNext.dll
+C:\Git.Projects\Discord.Bot\Discord.Bot\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Git.Projects\Discord.Bot\Discord.Bot\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Git.Projects\Discord.Bot\Discord.Bot\bin\Debug\netcoreapp3.1\DSharpPlus.Interactivity.dll
+C:\Git.Projects\Discord.Bot\Discord.Bot\bin\Debug\netcoreapp3.1\DSharpPlus.VoiceNext.dll
+C:\Git.Projects\Discord.Bot\Discord.Bot\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\libopus.dll
+C:\Git.Projects\Discord.Bot\Discord.Bot\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\libsodium.dll
+C:\Git.Projects\Discord.Bot\Discord.Bot\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\libopus.dll
+C:\Git.Projects\Discord.Bot\Discord.Bot\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\libsodium.dll
 C:\Git.Projects\Discord.Bot\Discord.Bot\obj\Debug\netcoreapp3.1\Discord.Bot.csproj.CoreCompileInputs.cache

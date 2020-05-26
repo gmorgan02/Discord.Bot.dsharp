@@ -16,8 +16,8 @@ namespace Discord.Bot
     public class Bot
     {
         public DiscordClient Client { get; private set; }
-        public CommandsNextModule Commands { get; private set; }
-        public VoiceNextClient Voice { get; set; }
+        public CommandsNextExtension Commands { get; private set; }
+        public VoiceNextExtension Voice { get; set; }
 
         public async Task RunAsync()
         {
@@ -46,7 +46,7 @@ namespace Discord.Bot
 
             var commandsConfig = new CommandsNextConfiguration
             {
-                StringPrefix =  configJson.Prefix,
+                StringPrefixes =  new string[] { configJson.Prefix },
                 EnableMentionPrefix = true,
                 EnableDms = false,
             };
@@ -55,15 +55,6 @@ namespace Discord.Bot
             //Initializes the commands from each class
             Commands.RegisterCommands<TestCommands>();
             Commands.RegisterCommands<MusicCommands>();
-
-            // let's set up voice
-            var vcfg = new VoiceNextConfiguration
-            {
-                VoiceApplication = VoiceApplication.Music
-            };
-
-            // and let's enable it
-            Voice = Client.UseVoiceNext(vcfg);
 
             await Client.ConnectAsync();
 
