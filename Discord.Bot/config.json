@@ -1,4 +1,7 @@
 {
   "token": "NTI0MzM3OTU5MDg5MDc4Mjc2.XssdDg.Y4gZk5I3V7KsCsmAq68Si6V8Z3A",
-  "prefix": "!"
+  "prefix": "!",
+  "restUri": "http://localhost:2333/",
+  "password": "T3stPl3W0rk",
+  "webSocketUri": "ws://localhost:2333/"
 }

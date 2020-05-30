@@ -12,5 +12,11 @@ namespace Discord.Bot
         public string Token { get; private set; }
         [JsonProperty("prefix")]
         public string Prefix { get; private set; }
+        [JsonProperty("restUri")]
+        public string RestUri { get; set; }
+        [JsonProperty("password")]
+        public string Password { get; set; }
+        [JsonProperty("webSocketUri")]
+        public string WebSocketUri { get; set; }
     }
 }

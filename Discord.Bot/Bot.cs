@@ -7,9 +7,10 @@ using Discord.Bot.Commands;
 using DSharpPlus;
 using DSharpPlus.CommandsNext;
 using DSharpPlus.EventArgs;
-using DSharpPlus.Lavalink;
 using DSharpPlus.VoiceNext;
 using DSharpPlus.VoiceNext.Codec;
+using Lavalink4NET;
+using Lavalink4NET.DSharpPlus;
 using Newtonsoft.Json;
 
 namespace Discord.Bot
@@ -40,13 +41,20 @@ namespace Discord.Bot
                 UseInternalLogHandler = true
             };
 
+            var lavalinkConfig = new LavalinkNode(new LavalinkNodeOptions
+            {
+                RestUri = configJson.RestUri,
+                Password = configJson.Password,
+                WebSocketUri = configJson.WebSocketUri
+                // add your node configuration
+            }, new DiscordClientWrapper(Client));           
+
+
             Client = new DiscordClient(config);
             var voice = Client.UseVoiceNext();
-
+           
             Client.Ready += OnClientReady;
-
-            Client.UseLavalink();
-
+            Client.Ready += () => lavalinkConfig.InitializeAsync();
 
             var commandsConfig = new CommandsNextConfiguration
             {
@@ -68,6 +76,7 @@ namespace Discord.Bot
 
         private Task OnClientReady(ReadyEventArgs e)
         {
+            
             return Task.CompletedTask;
         }
     }

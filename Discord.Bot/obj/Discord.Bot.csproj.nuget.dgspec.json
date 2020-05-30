@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Git.Projects\\Discord.Bot\\Discord.Bot\\Discord.Bot.csproj": {}
+    "C:\\Git.Projects\\Discord.Bot.dSharp\\Discord.Bot\\Discord.Bot.csproj": {}
   },
   "projects": {
-    "C:\\Git.Projects\\Discord.Bot\\Discord.Bot\\Discord.Bot.csproj": {
+    "C:\\Git.Projects\\Discord.Bot.dSharp\\Discord.Bot\\Discord.Bot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git.Projects\\Discord.Bot\\Discord.Bot\\Discord.Bot.csproj",
+        "projectUniqueName": "C:\\Git.Projects\\Discord.Bot.dSharp\\Discord.Bot\\Discord.Bot.csproj",
         "projectName": "Discord.Bot",
-        "projectPath": "C:\\Git.Projects\\Discord.Bot\\Discord.Bot\\Discord.Bot.csproj",
+        "projectPath": "C:\\Git.Projects\\Discord.Bot.dSharp\\Discord.Bot\\Discord.Bot.csproj",
         "packagesPath": "C:\\Users\\George\\.nuget\\packages\\",
-        "outputPath": "C:\\Git.Projects\\Discord.Bot\\Discord.Bot\\obj\\",
+        "outputPath": "C:\\Git.Projects\\Discord.Bot.dSharp\\Discord.Bot\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -54,13 +54,21 @@
               "target": "Package",
               "version": "[4.0.0-nightly-00697, )"
             },
-            "DSharpPlus.Lavalink": {
-              "target": "Package",
-              "version": "[4.0.0-nightly-00697, )"
-            },
             "DSharpPlus.VoiceNext": {
               "target": "Package",
               "version": "[4.0.0-nightly-00697, )"
+            },
+            "Lavalink4NET": {
+              "target": "Package",
+              "version": "[1.4.17, )"
+            },
+            "Lavalink4NET.DSharpPlus": {
+              "target": "Package",
+              "version": "[1.4.17, )"
+            },
+            "Lavalink4NET.MemoryCache": {
+              "target": "Package",
+              "version": "[1.4.17, )"
             }
           },
           "imports": [
